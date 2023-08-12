@@ -1,3 +1,4 @@
+# For deleting all repo and images
 #!/bin/bash
 
 
