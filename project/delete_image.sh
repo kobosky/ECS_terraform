@@ -3,6 +3,8 @@
 # Set your AWS region
 REGION="eu-west-2"
 
+REPO_NAME="my-first-ecr-repo"
+
 # List ECR repositories
 echo "Listing ECR repositories..."
 REPOS=$(aws ecr describe-repositories --region $REGION --output text --query 'repositories[*].repositoryName')
